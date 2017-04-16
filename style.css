@@ -1,0 +1,45 @@
+div{
+    padding-left: 32%;
+}
+
+.img{
+    width: 32%;
+    height: 300px;
+    display: none;
+}
+
+.img {
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-right: 50%;
+        width: 0%;
+    }
+
+    to {
+        margin-left: 0%;
+        width:400px;
+    }
+}
+
+.next img, .previous img{
+    width: 25px;
+    height: 25px;
+
+}
+button:focus {
+    outline:0;
+}
+
+button {
+    background: none;
+    border: none;
+    opacity: 0.5;
+
+}
+button:hover{
+    opacity: 1;
+}
