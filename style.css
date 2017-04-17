@@ -3,9 +3,11 @@ div{
 }
 
 .img{
-    width: 32%;
+    width: 55%;
     height: 300px;
     display: none;
+
+
 }
 
 .img {
@@ -24,6 +26,8 @@ div{
         width:400px;
     }
 }
+
+
 
 .next img, .previous img{
     width: 25px;
